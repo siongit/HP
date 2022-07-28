@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+/*全体の書式設定*/
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+#container{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #f9f4ef;
+}
+
+/*ヘッダーの書式設定*/
+header{
+    background-color: #8c7851;
+    height: 100px;
+    color: #ffffff;
+    
+}
+
+header h1{
+    float: left;
+}
+
+header p{
+    text-align: right;
+}
+
+
+/*ナビゲーションバーの書式設定*/
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #ffffff;
+    box-shadow: 3px 3px  #c2c2c2;
+    border-left: solid 3px #c2c2c2;
+}
+
+nav li{
+    padding-top: 10px;
+    margin-right: 20px;
+
+}
+
+nav li:hover{
+    background-color: #f25042;
+    color: #ffffff;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+/*写真設定*/
+.slider img{
+    width: 500px;
+    height: 900px;
+    margin-top: 5px;
+}
+
+/*メインの書式設定*/
+.bar{
+    background-color: #8c7851;
+    color: #fffffe;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    box-shadow: 3px 3px  #c2c2c2;
+    clear: left;
+}
+
+.bar p{
+    text-align: center;
+}
+
+.hyouka{
+    float: left;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.honya{
+    float: left;
+}
+
+.honya img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+ /*吹き出し2*/
+ .balloon-box {
+    width: 500px;
+    margin: 0 auto;
+    padding: 100px 0px 0px 200px;
+  }
+  .balloon2 {
+    position: relative;
+    background-color: #8c7851;
+    padding: 2em;
+    border: 3px solid #8c7851;
+    color: #ffffff;
+  }
+  .balloon2:before,
+  .balloon2:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    margin: auto;
+  }
+  .balloon2:before{
+    top: 20px;
+    left: -545px;
+    border-style: solid;
+    border-color: #8c7851 transparent transparent transparent;
+    border-width: 25px 0 0 45px;
+  }
+  .balloon2:after{
+    top: 22.5px;
+    left: -534px;
+    border-style: solid;
+    border-color: #8c7851 transparent transparent transparent;
+    border-width: 20.5px 0 0 39px;
+    z-index: 10;
+  }
+
+
+/*フッターの書式設定*/
+footer{
+    color: #ffffff;
+    background-color: #8c7851;
+    text-align: center;
+    margin-top: 300px;
+}
+
+footer img{
+    padding: 20px 0px;
+}
+
+footer p:last-child{
+    padding-top: 13px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}

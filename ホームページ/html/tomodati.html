@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/syousaistyle.css">
+  <!--<link rel="stylesheet" href="../css/cursor.css">-->
+</head>
+
+<body>
+  <!--<div class="cursor"><img src="../photo/book.png" alt=""></div>-->
+  <div id="container"> <!--全体を囲むdiv-->
+
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div class="picture">
+            <img src="../photo/tomodati.jpg" id="photo" onclick="func1()" alt="">
+            <div class="btn">
+              <input type="submit" value="購入する">
+            </div>
+            
+           <div class="otamesi">
+            <a href="https://booklive.jp/bviewer/s/?cid=255832_001&rurl=https%3A%2F%2Fbooklive.jp%2Fproduct%2Findex%2Ftitle_id%2F255832%2Fvol_no%2F001"><span>試し読みをする</span></a>
+            </div>
+        </div>
+        <div class="sentence">
+            <h1>トモダチゲーム</h1>
+            <p><span>著者 : </span>山口 ミコト</p>
+            <p><span>価格 : </span>462円(本体420円+税)</p>
+            <p>カテゴリ:少年・青年マンガ</p>
+            <p>ジャンル:少年マンガ</p>
+            <p>作品紹介<br>
+                主人公の友一は4人の友達とともに、借金返済のため謎のゲームにのぞむ。<br>
+                友情さえあれば、おそろしく簡単なゲームのはずだった。<br>
+                そう、友情さえあれば…。だが、誰かのおかした裏切りが疑心を生み、ゲームは息づまる心理戦となる!!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+      <img src="../photo/marumegane2.png" alt=""><br>
+      <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+      <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+
+  <!--画像ズーム-->
+  <script src="../js/zoom.js"></script>
+
+  <!--購入ボタン通知-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../js/konyu.js"></script>
+  <!--<script src="../js/cursor.js"></script>-->
+</body>
+
+</html>

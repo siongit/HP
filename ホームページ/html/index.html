@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/indexstyle.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <!--<link rel="stylesheet" href="../css/cursor.css">-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+  </script>
+
+</head>
+
+<body>
+  <!--<div class="cursor"><img src="../photo/book.png" alt=""></div>-->
+  <div id="container"> <!--全体を囲むdiv-->
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <a href="syouhin.html">
+      <div class="slider">
+          <img src="../photo/honmegane.jpg" alt="">
+          <img src="../photo/hyouka.jpg" alt="">
+          <img src="../photo/bokuasu.jfif" alt="">
+          <img src="../photo/sao.jpg" alt="">
+          <img src="../photo/youzitu.jpg" alt="">
+          <img src="../photo/tomodati.jpg" alt="">
+          <img src="../photo/supai.png" alt="">
+      </div>
+    </a>
+
+    <div id="main">
+      <div class="bar">
+        <p>様々な本を取り揃えております！</p>
+      </div>
+
+      <p>株式会社Aoyama Store公式 書籍通販サイトです。先行販売や新着商品が続々と掲載されますので、是非ご覧ください!</p>
+      
+      <div class="honya">
+        <img src="../photo/job_book_honya.png" alt="">
+      </div>
+
+    <!-- Balloon2 -->
+    <div class="balloon-box">
+      <div class="balloon2">
+        株式会社Aoyama Store代表 青山史穏です。<br>
+        様々な種類の本を取り揃えております。<br>
+        是非興味のある書籍をご覧ください！
+      </div>
+    </div>
+    <!-- /Balloon2 -->
+
+      <div class="bar">
+        <p>私、一押しの商品はこちら!</p>
+      </div>
+      
+      <div class="hyouka">
+        <a href="hyouka.html"><img src="../photo/hyouka.jpg" alt=""></a>
+        <h4>※画像をクリックすると商品ページに飛ぶことが出来ます</h4>
+      </div>
+
+      <!-- Balloon2 -->
+    <div class="balloon-box">
+      <div class="balloon2">
+        著者 米澤穂信先生の作品です。<br>
+        是非ご覧ください!
+      </div>
+    </div>
+    <!-- /Balloon2 -->
+
+    </div>
+
+    <footer>
+        <img src="../photo/marumegane2.png" alt=""><br>
+        <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+        <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+  <!--<script src="../js/cursor.js"></script>-->
+  
+</body>
+
+</html>

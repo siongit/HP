@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/syousaistyle.css">
+  <!--<link rel="stylesheet" href="../css/cursor.css">-->
+</head>
+
+<body>
+  <!--<div class="cursor"><img src="../photo/book.png" alt=""></div>-->
+  <div id="container"> <!--全体を囲むdiv-->
+
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div class="picture">
+            <img src="../photo/sao.jpg" id="photo" onclick="func1()" alt="">
+         </a>
+            <div class="btn">
+              <input type="submit" value="購入する">
+            </div>
+            
+           <div class="otamesi">
+            <a href="https://booklive.jp/bviewer/?cid=382776_001&rurl=https%3A%2F%2Fbooklive.jp%2Fproduct%2Findex%2Ftitle_id%2F382776%2Fvol_no%2F001"><span>試し読みをする</span></a>
+            </div>
+        </div>
+        <div class="sentence">
+            <h1>ソードアートオンライン</h1>
+            <p><span>著者 : </span>川原 礫</p>
+            <p><span>価格 : </span>649円(本体590円+税)</p>
+            <p>カテゴリ:ライトノベル</p>
+            <p>ジャンル:男性向けライトノベル/電撃文庫</p>
+            <p>作品紹介<br>
+                クリアするまで脱出不可能、ゲームオーバーは本当の“死”を意味する──。謎の次世代MMO<br>
+                『ソードアート・オンライン（SAO）』の“真実”を知らずログインした約一万人のユーザー<br>
+                と共に、その過酷なデスバトルは幕を開けた。　SAOに参加した一人である主人公・キリト<br>
+                は、いち早くこのMMOの“真実”を受け入れる。そして、ゲームの舞台となる巨大浮遊城『ア<br>
+                インクラッド』で、パーティを組まないソロプレイヤーとして頭角をあらわしていった。<br>
+                クリア条件である最上階層到達を目指し、熾烈な冒険（クエスト）を単独で続けるキリトだ<br>
+                ったが、レイピアの名手・女流剣士アスナの強引な誘いによって彼女とコンビを組むことに<br>
+                なってしまう。その出会いは、キリトに運命とも呼べる契機をもたらし……。果たして、キ<br>
+                リトはこのゲームから抜け出すことができるのか。　第15回電撃小説大賞＜大賞＞受賞作<br>
+                『アクセル・ワールド』の著者・川原礫！
+            </p>
+        </div>
+    </div>
+
+    <footer>
+      <img src="../photo/marumegane2.png" alt=""><br>
+      <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+      <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+
+  <!--画像ズーム-->
+  <script src="../js/zoom.js"></script>
+
+  <!--購入ボタン通知-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../js/konyu.js"></script>
+  <script src="../js/cursor.js"></script>
+  <!--<script src="../js/cursor.js"></script>-->
+</body>
+
+</html>

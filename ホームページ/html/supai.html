@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/syousaistyle.css">
+ <!-- <link rel="stylesheet" href="../css/cursor.css">-->
+  
+</head>
+
+<body>
+  <!--<div class="cursor"><img src="../photo/book.png" alt=""></div>-->
+  <div id="container"> <!--全体を囲むdiv-->
+
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div class="picture">
+            <img src="../photo/supai.png" id="photo" onclick="func1()" alt="">
+            <div class="btn">
+              <input type="submit" value="購入する">
+            </div>
+            
+           <div class="otamesi">
+            <a href="https://booklive.jp/bviewer/s/?cid=618908_001&rurl=https%3A%2F%2Fbooklive.jp%2Fsearch%2Fkeyword%3Fkeyword%3D%25E3%2582%25B9%25E3%2583%2591%25E3%2582%25A4%25E3%2583%2595%25E3%2582%25A1%25E3%2583%259F%25E3%2583%25AA%26use_search_box%3D1"><span>試し読みをする</span></a>
+            </div>
+        </div>
+        <div class="sentence">
+            <h1>SPY×FAMILY</h1>
+            <p><span>著者 : </span>遠藤 達哉</p>
+            <p><span>価格 : </span>501円(本体456円+税)</p>
+            <p>カテゴリ:少年・青年マンガ</p>
+            <p>ジャンル:少年マンガ</p>
+            <p>作品紹介<br>
+                名門校潜入のために「家族」を作れと命じられた凄腕スパイの〈黄昏〉。<br>
+                だが、彼が出会った“娘”は心を読む超能力者！　“妻”は暗殺者で!?<br>
+                互いに正体を隠した仮初め家族が、受験と世界の危機に立ち向かう<br>
+                痛快ホームコメディ!!
+            </p>
+        </div>
+    </div>
+
+    <footer>
+      <img src="../photo/marumegane2.png" alt=""><br>
+      <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+      <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+
+  <!--画像ズーム-->
+  <script src="../js/zoom.js"></script>
+
+  <!--購入ボタン通知-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../js/konyu.js"></script>
+  <!--<script src="../js/cursor.js"></script>-->
+</body>
+
+</html>

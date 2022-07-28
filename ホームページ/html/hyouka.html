@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/syousaistyle.css">
+  <!--<link rel="stylesheet" href="../css/cursor.css">-->
+
+</head>
+
+<body>
+  <!--<div class="cursor"><img src="../photo/book.png" alt=""></div>-->
+  <div id="container"> <!--全体を囲むdiv-->
+
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div class="picture">
+          <img src="../photo/hyouka.jpg" id="photo" onclick="func1()" alt="">
+          <div class="btn">
+            <input type="submit" value="購入する">
+          </div>
+            
+           <div class="otamesi">
+            <a href="https://viewer-trial.bookwalker.jp/03/9/viewer.html?cid=ff0b1f05-318a-48cd-8f65-70b1cbbf5386&cty=0&adpcnt=7qM_Nkp"><span>試し読みをする</span></a>
+            </div>
+        </div>
+        <div class="sentence">
+            <h1>氷菓</h1>
+            <p><span>著者 : </span>米澤 穂信</p>
+            <p><span>価格 : </span>572円(本体520円+税)</p>
+            <p>カテゴリ:小説・文芸</p>
+            <p>ジャンル:小説/国内ミステリー</p>
+            <p>作品紹介<br>
+              何事にも積極的に関わらないことをモットーとする奉太郎は、高校入学と同時に、姉の命令で古典部に入部させられる。<br>
+              さらに、そこで出会った好奇心少女・えるの一言で、彼女の伯父が関わったという三十三年前の事件の真相を推理することになり――。<br>
+              米澤穂信、清冽なデビュー作！
+            </p>
+        </div>
+    </div>
+
+    <footer>
+      <img src="../photo/marumegane2.png" alt=""><br>
+      <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+      <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+
+  <!--画像ズーム-->
+  <script src="../js/zoom.js"></script>
+
+  <!--購入ボタン通知-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../js/konyu.js"></script>
+  <!--<script src="../js/cursor.js"></script>-->
+</body>
+
+</html>

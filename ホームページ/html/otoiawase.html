@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aoyama Store</title>
+  <link rel="stylesheet" href="../css/otoiawasestyle.css">
+  
+</head>
+
+<body>
+ 
+  <div id="container"> <!--全体を囲むdiv-->
+
+    <header>
+        <h1>Aoyama Store</h1>
+        <p>
+            <img src="../photo/marumegane2.png" alt="">
+            0120-454-443<br>
+            営業時間 9:00~19:00<br>
+            定休日 毎週月曜日
+        </p>
+        <p id="myid"></p>
+        <script src="../js/time.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">トップページ</a></li>
+          <li><a href="syouhin.html">商品一覧</a></li>
+          <li><a href="tokuteisyou.html">特定商取引法に基づく表記</a></li>
+          <li><a href="otoiawase.html">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <div id="main">
+        <div class="bar">
+            <p>お問い合わせ</p>
+        </div>
+
+        <table>
+            <tr><th>氏名</th><td><label><input type="text" name="user_name" size="20"></label></td></tr>
+            <tr><th>フリガナ</th><td><label><input type="text" name="user_huri" size="20"></label></td></tr>
+            <tr><th>電話番号</th><td><label><input type="text" name="tel" size="20"></label></td></tr>
+            <tr><th>メールアドレス</th><td><label><input type="text" name="mail" size="50"></label></td></tr>
+            <tr>
+                <th>お問い合わせ</th>
+                <td><label><input type="radio" name="otoiawase" value="1">商品について</label><br>
+                    <label><input type="radio" name="otoiawase" value="2">当社へのお問い合わせ</label><br>
+                    <label><input type="radio" name="otoiawase" value="3">その他</label>
+                </td>
+            </tr>
+            <tr><th>お問い合わせ内容</th><td><label><textarea name="message"cols="50" rows="10"></textarea></label></td></tr>
+          </table>
+          <div class="btn">
+            <input type="submit" value="送信">
+            <input type="reset" value="クリア">
+          </div>
+    </div>
+
+    <footer>
+      <img src="../photo/marumegane2.png" alt=""><br>
+      <p><a href="tokuteisyou.html">特定商取引法に基づく表記</a></p><br>
+      <p>Copyright (C) 2021 Aoyama Store All rights reserved.</p>
+    </footer>
+  </div> <!--全体を囲むdiv-->
+  
+</body>
+
+</html>
